@@ -22,7 +22,7 @@ A projekt hivatalos dokumentumai **nem részei a Git‑repositorynak**, hanem k�
 
 - **Tervezési dokumentáció (Word):** https://katonaszg-my.sharepoint.com/:w:/g/personal/ujhelyil_katonaj-mkszig_hu/IQAPi-TE6LwdS7I0-YPGCr3IAZ9sVlr_aYJDiTqTjS2ykNI?e=DuL1Lv
 
-- **Feladatkiírás (PDF):** (Tanár által később megosztva)
+- **Feladatkiírás (PDF):** https://katonaszg-my.sharepoint.com/:b:/g/personal/ujhelyil_katonaj-mkszig_hu/IQD-JPSMvHR7RLQHOTsLJyUAAd5Q0rl0wI6xnkwArJ0qiFI?e=1YNkGt
 
 ### Elkészített dokumentumok:
 
