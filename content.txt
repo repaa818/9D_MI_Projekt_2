@@ -1,0 +1,87 @@
+# AI a Játékokban — Teljes Tartalom
+
+## Navigáció
+- Főoldal
+- Történet
+- Technikák
+- Példák
+- Trendek
+- Jövő
+
+## Hero
+Cím: AI A JÁTÉKOKBAN
+Alcím: avagy mióta használunk AI-t a játékokban
+
+## Feature Cards (Áttekintés)
+1. Története — AI használatának története a kezdetektől napjainkig.
+2. Technikák — Technikák amivel lehet AI-t használni videójátékokban.
+3. Példák — Nevezetes játékok, amik AI-t használnak.
+4. Jövő — Merre tart a videojáték mesterséges intelligencia?
+
+## Történet (History)
+### Bevezető
+Lorem ipsum placeholder — áttekintés a videojáték AI történetéről.
+### Mérföldkövek
+- Pac-Man (1980) — az első játék, ami meghatározott viselkedésmintákkal rendelkező ellenfeleket használt.
+- GoldenEye 007 (1997) — úttörő NPC viselkedés és éberségi rendszer.
+- FEAR (2005) — fejlett csapat AI és taktikai döntéshozatal.
+- (További placeholder + valós tartalom)
+
+## Technikák (Techniques)
+### FSM (Véges állapotgépek)
+Lorem ipsum placeholder. NPC viselkedés alapjai — állapotok és átmenetek.
+### Behavior Tree (Viselkedésfák)
+Lorem ipsum placeholder. Hierarchikus döntési fák komplex viselkedéshez.
+### A* Pathfinding (Útvonaltervezés)
+Lorem ipsum placeholder. Útvonaltervezés akadályokkal teli környezetben.
+### Utility AI
+(TODO — később részletezve)
+### GOAP
+(TODO — később részletezve)
+
+## Példák (Examples)
+### FEAR
+Lorem ipsum placeholder. Taktikai csapat AI és dinamikus fedezékhasználat.
+### The Last of Us
+Lorem ipsum placeholder. Adaptív ellenséges viselkedés és környezetfelismerés.
+### Alien: Isolation
+Lorem ipsum placeholder. Két rétegű AI: scriptelt és dinamikus viselkedés.
+### (További példák)
+TODO: Halo, F.E.A.R., Left 4 Dead (AI Director), Minecraft (NPC viselkedés)
+
+## Modern Trendek (Trends)
+### Bal oldali oszlop
+Lorem ipsum placeholder. ML, RL alapú megoldások térnyerése.
+### Jobb oldali oszlop
+Lorem ipsum placeholder. LLM-alapú NPC dialógus és procedurális tartalom generálás.
+### További témák (TODO)
+- Reinforcement Learning játékokban
+- LLM-vezérelt dinamikus történetmesélés
+- PCG (Procedural Content Generation)
+
+## Jövő (Future)
+### Bal oldali oszlop
+Lorem ipsum placeholder.
+### Jobb oldali oszlop
+Lorem ipsum placeholder.
+### További témák (TODO)
+- Teljesen AI-generált játékvilágok
+- AI segített játékfejlesztés
+- Etikai kérdések
+
+## Lábléc (Footer)
+© Kenyér s.r.o.
+Brecska Bálint • Répási Benedek • Szilvásy Gergely
+
+---
+
+## Assets Needed
+- `assets/images/hero-bg.jpg` — Hero háttér (AI / játék tematikájú)
+- `assets/images/history-timeline.jpg` — Történeti idővonal illusztráció
+- `assets/images/fsm-diagram.jpg` — FSM ábra
+- `assets/images/behavior-tree.jpg` — Behavior Tree ábra
+- `assets/images/pathfinding.jpg` — A* pathfinding vizualizáció
+- `assets/images/fear-screenshot.jpg` — FEAR játék kép
+- `assets/images/tlou-screenshot.jpg` — The Last of Us kép
+- `assets/images/alien-screenshot.jpg` — Alien: Isolation kép
+- `assets/images/future-concept.jpg` — Jövőbeli AI koncepció

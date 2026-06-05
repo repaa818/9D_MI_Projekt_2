@@ -46,13 +46,8 @@ body::before {
     z-index: -1;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    padding: 0.75rem 2rem;
+.navbar {
+    padding: 0.75rem 0;
 }
 
 .nav-border {
@@ -62,44 +57,24 @@ nav {
     border-bottom: 1px solid rgba(59, 130, 246, 0.1);
 }
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    list-style: none;
+.navbar-brand {
+    color: var(--blue-soft) !important;
+    font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
-nav ul li a {
-    color: var(--text-muted);
-    text-decoration: none;
+.nav-link {
+    color: var(--text-muted) !important;
     font-size: 0.85rem;
     font-weight: 500;
     letter-spacing: 0.5px;
     position: relative;
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.75rem !important;
     transition: color 0.25s ease;
 }
 
-nav ul li a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 2px;
-    background: var(--blue-accent);
-    border-radius: 1px;
-    transition: width 0.25s ease;
-}
-
-nav ul li a:hover {
-    color: var(--blue-soft);
-}
-
-nav ul li a:hover::after {
-    width: 100%;
+.nav-link:hover {
+    color: var(--blue-soft) !important;
 }
 
 .hero {
@@ -132,17 +107,28 @@ nav ul li a:hover::after {
     max-width: 500px;
 }
 
-.features {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 3rem 2rem 5rem;
+section {
+    padding: 5rem 0;
 }
 
-.feature-card:nth-child(4) {
-    grid-column: 2 / 3;
+.section-alt {
+    background: var(--bg-secondary);
+}
+
+.section-title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    color: var(--blue-glow);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+    color: var(--text-muted);
+    text-align: center;
+    font-size: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .feature-card {
@@ -155,6 +141,7 @@ nav ul li a:hover::after {
     text-align: center;
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
     cursor: default;
+    height: 100%;
 }
 
 .feature-card:hover {
@@ -251,43 +238,11 @@ footer p:first-child {
 }
 
 @media (max-width: 768px) {
-    nav {
-        padding: 0.7rem 1rem;
-    }
-
-    nav ul {
-        gap: 1.5rem;
-    }
-
-    nav ul li a {
-        font-size: 0.8rem;
-    }
-
-    .features {
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem 4rem;
-        gap: 1rem;
-    }
-
-    .feature-card:nth-child(4) {
-        grid-column: auto;
-    }
-
-    .feature-card {
-        padding: 1.75rem 1.5rem;
+    section {
+        padding: 3rem 0;
     }
 
     .hero {
         padding: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    nav ul {
-        gap: 1rem;
-    }
-
-    nav ul li a {
-        font-size: 0.75rem;
     }
 }

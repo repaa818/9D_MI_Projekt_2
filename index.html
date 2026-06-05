@@ -6,54 +6,180 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./style.css">
-    <title>9D_MI_Projekt_2</title>
+    <title>AI a Játékokban</title>
 </head>
 
 <body>
-    <header>
-        <nav class="nav-border">
-            <div>
-                <ul>
-                    <li><a href="#">Főoldal</a></li>
-                    <li><a href="#">Története</a></li>
-                    <li><a href="#">Technikák</a></li>
+    <nav class="navbar navbar-expand-md nav-border fixed-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">AI a Játékokban</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#history">Történet</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#techniques">Technikák</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#examples">Példák</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trends">Trendek</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#future">Jövő</a></li>
                 </ul>
             </div>
-        </nav>
-    </header>
-    <div class="hero">
+        </div>
+    </nav>
+
+    <section class="hero">
         <h1>AI A JÁTÉKOKBAN</h1>
         <p>avagy mióta használunk AI-t a játékokban</p>
-    </div>
+    </section>
 
     <section class="reveal visible">
-        <div class="features">
-            <div class="feature-card" style="transition-delay: 0s;">
-                <h3>Története</h3>
-                <p>AI használatának története
-                </p>
-            </div>
-            <div class="feature-card" style="transition-delay: 0.07s;">
-                <h3>Technikák</h3>
-                <p>Technikák amivel lehet AI-t használni videójátékokban</p>
-            </div>
-            <div class="feature-card" style="transition-delay: 0.14s;">
-                <h3>Példák</h3>
-                <p>Ezek a játékok használnak AI-t</p>
-            </div>
-            <div class="feature-card" style="transition-delay: 0.21s;">
-                <h3>Jövő</h3>
-                <p>Ez az AI jövöje videójátékokban</p>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <h3><i class="bi bi-clock-history me-2"></i>Története</h3>
+                        <p>AI használatának története a kezdetektől napjainkig.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <h3><i class="bi bi-cpu me-2"></i>Technikák</h3>
+                        <p>Technikák amivel lehet AI-t használni videójátékokban.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <h3><i class="bi bi-controller me-2"></i>Példák</h3>
+                        <p>Ezek a játékok használnak AI-t.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <h3><i class="bi bi-rocket-takeoff me-2"></i>Jövő</h3>
+                        <p>Merre tart a videojáték mesterséges intelligencia?</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
+    <section id="history" class="section-alt">
+        <div class="container">
+            <h2 class="section-title">Történet</h2>
+            <p class="section-subtitle">Mérföldkövek a videojáték AI történetében</p>
+            <div class="row mt-5">
+                <div class="col-12 col-md-6 mb-4">
+                    <p>A videojátékok mesterséges intelligenciája az 1950-es évekig nyúlik vissza, amikor az első sakkprogramok és logikai játékok megjelentek. Az igazi áttörés az 1980-as években következett be, amikor a játékfejlesztők elkezdtek tudatosan viselkedésmintákat programozni az ellenfelek számára. Azóta az AI a játékfejlesztés egyik legfontosabb pillérévé vált.</p>
+                    <p>A technológia fejlődésével párhuzamosan az NPC-k (nem játékos karakterek) egyre összetettebb döntéseket képesek hozni, tanulnak a játékos viselkedéséből, és dinamikusan alkalmazkodnak a változó helyzetekhez. A modern játékokban már nem csak ellenfelek irányítására, hanem történetgenerálásra, pályatervezésre és játékélmény personalizálására is használják.</p>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <p>Pac-Man (1980) — az első játék, ami meghatározott viselkedésmintákkal rendelkező ellenfeleket használt.</p>
+                    <p>GoldenEye 007 (1997) — úttörő NPC viselkedés és éberségi rendszer.</p>
+                    <p>FEAR (2005) — fejlett csapat AI és taktikai döntéshozatal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="techniques">
+        <div class="container">
+            <h2 class="section-title">Technikák</h2>
+            <p class="section-subtitle">AI megoldások, amik a játékokat működtetik</p>
+            <div class="row g-4 mt-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <h3>FSM</h3>
+                        <p>Az NPC-k állapotai (pl. járőrözés, üldözés, támadás) között egyszerű szabályok alapján váltanak. Könnyen implementálható és debugolható, de komplex viselkedéshez túl sok állapotra van szükség.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <h3>Behavior Tree</h3>
+                        <p>A gyökérből kiinduló feltételes ágak lehetővé teszik, hogy az NPC-k természetes módon válasszanak a lehetséges akciók között. Skálázható, moduláris, és az FSM-nél rugalmasabb megoldás.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <h3>A* Pathfinding</h3>
+                        <p>A* (A-star) gráfkereső algoritmus megtalálja a legrövidebb utat két pont között akadályokkal teli térképen. A nyílt világú játékok és RTS-ek alapvető építőköve.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="examples" class="section-alt">
+        <div class="container">
+            <h2 class="section-title">Példák</h2>
+            <p class="section-subtitle">Nevezetes játékok, amik AI-t használnak</p>
+            <div class="row mt-5">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="feature-card">
+                        <h3>FEAR</h3>
+                        <p>Az ellenségek csapatként kommunikálnak egymással, bekerítik a játékost, fedezék mögé húzódnak és eldöntik mikor vonuljanak vissza. Az egyik első játék a GOAP (Goal-Oriented Action Planning) rendszerrel.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="feature-card">
+                        <h3>The Last of Us</h3>
+                        <p>Az ellenségek nem csak előre megírt mintákat követnek — alkalmazkodnak a játékos taktikájához, segítséget hívnak, fedezéket váltanak, és csapatmunkával próbálják legyőzni a játékost. A pszichológiai feszültség mesteri fokon.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="feature-card">
+                        <h3>Alien: Isolation</h3>
+                        <p>Az Alien két AI réteggel működik: egy scriptelt irányítás határozza meg a szörny hollétét, míg egy dinamikus viselkedési rendszer dönti el, hogyan vadásszon. Az eredmény kiszámíthatatlan és folyamatos feszültség.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trends">
+        <div class="container">
+            <h2 class="section-title">Modern Trendek</h2>
+            <p class="section-subtitle">A játék AI jelenlegi irányvonalai</p>
+            <div class="row mt-5">
+                <div class="col-12 col-md-6 mb-4">
+                    <p>A gépi tanulás (ML) és a megerősítéses tanulás (RL) térnyerésével a játékok egyre okosabbá válnak. Az RL segítségével az NPC-k milliónyi szimulált játék során tanulják meg a hatékony stratégiákat, anélkül hogy fejlesztői beavatkozásra lenne szükség.</p>
+                    <p>Az olyan játékok, mint a <em>Dota 2</em> és a <em>StarCraft II</em> már bizonyították, hogy az RL-alapú botok képesek felülmúlni a profi emberi játékosokat is.</p>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <p>Nagy nyelvi modellek (LLM-ek) integrálásával az NPC-k már nem előre megírt dialógusfákat követnek — valós időben generálnak válaszokat, és alkalmazkodnak a játékos korábbi döntéseihez. Ez forradalmasíthatja a szerepjátékok történetmesélését.</p>
+                    <p>A procedurális tartalomgenerálás (PCG) lehetővé teszi végtelen pályák, küldetések és világok automatikus létrehozását. A <em>No Man's Sky</em> és a <em>Spelunky</em> kiváló példák arra, hogyan teremthet az AI egyedi élményt minden játékosnak.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="future" class="section-alt">
+        <div class="container">
+            <h2 class="section-title">Jövő</h2>
+            <p class="section-subtitle">Merre tart a videojáték mesterséges intelligencia?</p>
+            <div class="row mt-5">
+                <div class="col-12 col-md-6 mb-4">
+                    <p>A közeljövőben a neurális hálózatokkal hajtott NPC-k olyan szintű realizmust és alkalmazkodóképességet fognak nyújtani, ami ma még elképzelhetetlen. A teljesen AI-generált játékvilágok, ahol a környezet, a küldetések és a párbeszédek mind menet közben jönnek létre, már nem sci-fi.</p>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <p>Az AI segített játékfejlesztés (AI-assisted game development) forradalmasíthatja az ipart: a hangok, textúrák, animációk, sőt teljes kód blokkok generálásával a kisebb csapatok is AAA minőségű játékokat készíthetnek. Ugyanakkor etikai kérdések is felmerülnek: hol a határ az intelligens és a tisztességtelen AI között?</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; Kenyér s.r.o.</p>
-        <p>Brecska Bálint &bull; Répási Benedek &bull; Szilvásy Gergely</p>
+        <div class="container">
+            <p>&copy; Kenyér s.r.o.</p>
+            <p>Brecska Bálint &bull; Répási Benedek &bull; Szilvásy Gergely</p>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-xm+Rnen3UapQmFQUPqOSgVJXf3T81B6WkF7F6GCIXzQqBvKs9AmGh6pIqpGP5p9"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
